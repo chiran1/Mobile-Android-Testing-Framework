@@ -7,7 +7,11 @@
     <parameter name = "deviceName" value="Pixel 3a XL"/>
   
     <classes>
-      <class name="com.qa.tests.SignInPageTests"/>
+      <class name="com.qa.tests.SignInPageTests">
+      <methods>
+      <include name="invalidUserName"></include>
+      </methods>
+      </class>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
