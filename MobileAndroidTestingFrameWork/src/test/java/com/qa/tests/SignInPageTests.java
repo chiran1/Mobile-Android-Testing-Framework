@@ -56,25 +56,16 @@ public class SignInPageTests extends BaseTest  {
 	@Test
 	public void validUserName() {
 		
-		try {
-			SignInPage.clearEmailField();
-			SignInPage.enterEmailId("gurkhalies@hotmail.com");
-			SignInPage.enterPassword("Simple@123");
-			SignInPage.clickBtnSignIn();
-			SignInPage.clickTouchId();
-			
-			boolean actual = SignInPage.getBol();
-			boolean expected = true;
-			System.out.println("actual displayed."+ actual + '\n'+ "expected displayed --"+ expected);
-			Assert.assertEquals(actual, expected);
-			
-		}catch(Exception e) {
-			StringWriter sw= new StringWriter();
-			PrintWriter pw= new PrintWriter(sw);
-			e.printStackTrace(pw);
-			System.out.println(sw.toString());
-			Assert.fail(sw.toString());
-		}
+		SignInPage.clearEmailField();
+		SignInPage.enterEmailId("gurkhalies@hotmail.com");
+		SignInPage.enterPassword("Simple@123");
+		SignInPage.clickBtnSignIn();
+		SignInPage.clickTouchId();
+		
+		boolean actual = SignInPage.getBol();
+		boolean expected = true;
+		System.out.println("actual displayed."+ actual + '\n'+ "expected displayed --"+ expected);
+		Assert.assertEquals(actual, expected);
 		
 		
 	}

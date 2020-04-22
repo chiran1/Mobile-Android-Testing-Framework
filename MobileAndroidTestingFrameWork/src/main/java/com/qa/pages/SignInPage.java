@@ -18,7 +18,7 @@ public class SignInPage extends BaseTest {
 	@AndroidFindBy(id = "com.spirit.customerapp:id/tv_signin")
 	private static MobileElement signIn;
 
-	@AndroidFindBy(id = "com.spirit.customerapp:id/edit_email")
+	@AndroidFindBy(id = "com.spirit.customerapp:id/edit_email1")
 	private static MobileElement email;
 
 	@AndroidFindBy(id = "com.spirit.customerapp:id/edit_password")

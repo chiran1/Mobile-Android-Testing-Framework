@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Suite" parallel="false">
-  <test name="Test">
-  <parameter name = "platformName" value="Android"/>
-   <parameter name = "platformVersion" value="10"/>
-    <parameter name = "deviceName" value="Pixel 3a XL"/>
-  
-    <classes>
-      <class name="com.qa.tests.SignInPageTests">
-      <methods>
-      <include name="invalidUserName"></include>
-      </methods>
-      </class>
-    </classes>
-  </test> <!-- Test -->
+	<listeners>
+		<listener class-name="com.qa.listeners.TestListener">
+		</listener>
+	</listeners>
+	<test name="Test">
+		<parameter name="platformName" value="Android" />
+		<parameter name="platformVersion" value="10" />
+		<parameter name="deviceName" value="Pixel 3a XL" />
+
+		<classes>
+			<class name="com.qa.tests.SignInPageTests">
+				<methods>
+					<include name="invalidUserName"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->

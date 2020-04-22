@@ -5,9 +5,11 @@
     <classes>
       <class name="com.qa.tests.SignInPageTests">
         <methods>
+          <include name="afterTest"/>
           <include name="beforeClass"/>
           <include name="beforeMethod"/>
           <include name="validUserName"/>
+          <include name="beforeTest"/>
           <include name="afterMethod"/>
           <include name="invalidUserName"/>
           <include name="afterClass"/>

@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/0/2</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 21 16:44:33 EDT 2020</td>
+<td>Started on:</td><td>Wed Apr 22 12:08:16 EDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (192 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (111 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,36 +75,18 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.qa.tests.SignInPageTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.SignInPageTests<br>Parameters: public void com.qa.tests.SignInPageTests.invalidUserName()</td>
-<td><div><pre>java.lang.IllegalArgumentException: Can not set static io.appium.java_client.MobileElement field com.qa.pages.SignInPage.notification to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:179)
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:183)
-	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:91)
-	at java.lang.reflect.Field.set(Field.java:774)
-	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
-	at com.qa.BaseTest.&lt;init&gt;(BaseTest.java:32)
-	at com.qa.tests.SignInPageTests.beforeMethod(SignInPageTests.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
-	at java.lang.reflect.Method.invoke(Method.java:508)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$48.0000000013EFF9D0.accept(Unknown Source)
-	at java.util.ArrayList.forEach(ArrayList.java:1260)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
+<td title='com.qa.tests.SignInPageTests.beforeTest()'><b>beforeTest</b><br>Test class: com.qa.tests.SignInPageTests</td>
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;platformName&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in C:\Users\bkoiral1\AppData\Local\Temp\testng-eclipse--57414831\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:272)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
@@ -118,36 +100,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace-1671071619", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace-1671071619'><pre>java.lang.IllegalArgumentException: Can not set static io.appium.java_client.MobileElement field com.qa.pages.SignInPage.notification to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:179)
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:183)
-	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:91)
-	at java.lang.reflect.Field.set(Field.java:774)
-	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
-	at com.qa.BaseTest.&lt;init&gt;(BaseTest.java:32)
-	at com.qa.tests.SignInPageTests.beforeMethod(SignInPageTests.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
-	at java.lang.reflect.Method.invoke(Method.java:508)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$48.0000000013EFF9D0.accept(Unknown Source)
-	at java.util.ArrayList.forEach(ArrayList.java:1260)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
+</pre></div><a href='#' onClick='toggleBox("stack-trace-1662602660", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace-1662602660'><pre>org.testng.TestNGException: 
+Parameter &apos;platformName&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in C:\Users\bkoiral1\AppData\Local\Temp\testng-eclipse--57414831\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:272)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
@@ -162,8 +126,8 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>0</td>
-<td>com.qa.tests.SignInPageTests@ebdf07fc</td></tr>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
@@ -173,25 +137,40 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='com.qa.tests.SignInPageTests.beforeClass()'><b>beforeClass</b><br>Test class: com.qa.tests.SignInPageTests</td>
+<td></td>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
+<tr>
 <td title='com.qa.tests.SignInPageTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.SignInPageTests</td>
 <td></td>
-<td>-1587501873</td>
-<td>com.qa.tests.SignInPageTests@ebdf07fc</td></tr>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
+<tr>
+<td title='com.qa.tests.SignInPageTests.beforeMethod()'><b>beforeMethod</b><br>Test class: com.qa.tests.SignInPageTests</td>
+<td></td>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
 <tr>
 <td title='com.qa.tests.SignInPageTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.SignInPageTests</td>
 <td></td>
-<td>-1587501873</td>
-<td>com.qa.tests.SignInPageTests@ebdf07fc</td></tr>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
 <tr>
 <td title='com.qa.tests.SignInPageTests.afterMethod()'><b>afterMethod</b><br>Test class: com.qa.tests.SignInPageTests</td>
 <td></td>
-<td>-1587501873</td>
-<td>com.qa.tests.SignInPageTests@ebdf07fc</td></tr>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
 <tr>
 <td title='com.qa.tests.SignInPageTests.afterClass()'><b>afterClass</b><br>Test class: com.qa.tests.SignInPageTests</td>
 <td></td>
-<td>-1587501873</td>
-<td>com.qa.tests.SignInPageTests@ebdf07fc</td></tr>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
+<tr>
+<td title='com.qa.tests.SignInPageTests.afterTest()'><b>afterTest</b><br>Test class: com.qa.tests.SignInPageTests</td>
+<td></td>
+<td>-1587571696</td>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-skipped'>
 <tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
@@ -202,35 +181,17 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='com.qa.tests.SignInPageTests.invalidUserName()'><b>invalidUserName</b><br>Test class: com.qa.tests.SignInPageTests</td>
-<td><div><pre>java.lang.IllegalArgumentException: Can not set static io.appium.java_client.MobileElement field com.qa.pages.SignInPage.notification to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:179)
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:183)
-	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:91)
-	at java.lang.reflect.Field.set(Field.java:774)
-	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
-	at com.qa.BaseTest.&lt;init&gt;(BaseTest.java:32)
-	at com.qa.tests.SignInPageTests.beforeMethod(SignInPageTests.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
-	at java.lang.reflect.Method.invoke(Method.java:508)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$48.0000000013EFF9D0.accept(Unknown Source)
-	at java.util.ArrayList.forEach(ArrayList.java:1260)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;platformName&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in C:\Users\bkoiral1\AppData\Local\Temp\testng-eclipse--57414831\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:272)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
@@ -244,36 +205,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace-757551139", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace-757551139'><pre>java.lang.IllegalArgumentException: Can not set static io.appium.java_client.MobileElement field com.qa.pages.SignInPage.notification to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:179)
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:183)
-	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:91)
-	at java.lang.reflect.Field.set(Field.java:774)
-	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
-	at com.qa.BaseTest.&lt;init&gt;(BaseTest.java:32)
-	at com.qa.tests.SignInPageTests.beforeMethod(SignInPageTests.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
-	at java.lang.reflect.Method.invoke(Method.java:508)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$48.0000000013EFF9D0.accept(Unknown Source)
-	at java.util.ArrayList.forEach(ArrayList.java:1260)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
+</pre></div><a href='#' onClick='toggleBox("stack-trace-2111175380", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace-2111175380'><pre>org.testng.TestNGException: 
+Parameter &apos;platformName&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in C:\Users\bkoiral1\AppData\Local\Temp\testng-eclipse--57414831\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:272)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
@@ -289,38 +232,20 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.tests.SignInPageTests@ebdf07fc</td></tr>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
 <tr>
 <td title='com.qa.tests.SignInPageTests.validUserName()'><b>validUserName</b><br>Test class: com.qa.tests.SignInPageTests</td>
-<td><div><pre>java.lang.IllegalArgumentException: Can not set static io.appium.java_client.MobileElement field com.qa.pages.SignInPage.notification to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:179)
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:183)
-	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:91)
-	at java.lang.reflect.Field.set(Field.java:774)
-	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
-	at com.qa.BaseTest.&lt;init&gt;(BaseTest.java:32)
-	at com.qa.tests.SignInPageTests.beforeMethod(SignInPageTests.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
-	at java.lang.reflect.Method.invoke(Method.java:508)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$48.0000000013EFF9D0.accept(Unknown Source)
-	at java.util.ArrayList.forEach(ArrayList.java:1260)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
+<td><div><pre>org.testng.TestNGException: 
+Parameter &apos;platformName&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in C:\Users\bkoiral1\AppData\Local\Temp\testng-eclipse--57414831\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:272)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
@@ -334,36 +259,18 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace-226757124", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace-226757124'><pre>java.lang.IllegalArgumentException: Can not set static io.appium.java_client.MobileElement field com.qa.pages.SignInPage.notification to org.openqa.selenium.remote.RemoteWebElement$$EnhancerByCGLIB$$d27c0df4
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:179)
-	at sun.reflect.UnsafeFieldAccessorImpl.throwSetIllegalArgumentException(UnsafeFieldAccessorImpl.java:183)
-	at sun.reflect.UnsafeStaticObjectFieldAccessorImpl.set(UnsafeStaticObjectFieldAccessorImpl.java:91)
-	at java.lang.reflect.Field.set(Field.java:774)
-	at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:117)
-	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:105)
-	at com.qa.BaseTest.&lt;init&gt;(BaseTest.java:32)
-	at com.qa.tests.SignInPageTests.beforeMethod(SignInPageTests.java:31)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:95)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
-	at java.lang.reflect.Method.invoke(Method.java:508)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-	at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-	at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-	at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at org.testng.TestRunner$$Lambda$48.0000000013EFF9D0.accept(Unknown Source)
-	at java.util.ArrayList.forEach(ArrayList.java:1260)
-	at org.testng.TestRunner.privateRun(TestRunner.java:766)
-	at org.testng.TestRunner.run(TestRunner.java:587)
+</pre></div><a href='#' onClick='toggleBox("stack-trace-1022494910", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace-1022494910'><pre>org.testng.TestNGException: 
+Parameter &apos;platformName&apos; is required by BeforeTest on method beforeTest but has not been marked @Optional or defined
+in C:\Users\bkoiral1\AppData\Local\Temp\testng-eclipse--57414831\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParams(Parameters.java:272)
+	at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:166)
+	at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:283)
+	at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:619)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:609)
+	at org.testng.TestRunner.run(TestRunner.java:580)
 	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
 	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
 	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
@@ -379,7 +286,7 @@ function toggleAllBoxes() {
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
 <td>0</td>
-<td>com.qa.tests.SignInPageTests@ebdf07fc</td></tr>
+<td>com.qa.tests.SignInPageTests@936498c2</td></tr>
 </table><p>
 </body>
 </html>
