@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resouces>
+	<!-- Error Text -->
+	<string name="errorText_invalid_username_or_password">Sorry, this email address could not be found.
+	</string>
+	<string name="display">true</string>
+</resouces>

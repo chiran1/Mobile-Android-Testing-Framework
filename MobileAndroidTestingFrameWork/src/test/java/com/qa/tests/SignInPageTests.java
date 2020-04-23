@@ -72,7 +72,7 @@ public class SignInPageTests extends BaseTest {
 		SignInPage.enterPassword(signupUser.getJSONObject("invalidUser").getString("password"));
 		SignInPage.clickBtnSignIn();
 		String actual = SignInPage.getErrText();
-		String expected = "Sorry, this email address could not be found.";
+		String expected = "Sorry, this email address could not be found.";//strings.get("errorText_invalid_username_or_password");
 		System.out.println("actual error txt =  " + actual + '\n' + "expected error txt =  " + expected);
 		Assert.assertEquals(actual, expected);
 	}
@@ -87,7 +87,7 @@ public class SignInPageTests extends BaseTest {
 		SignInPage.clickTouchId();
 
 		boolean actual = SignInPage.getBol();
-		boolean expected = true;
+		boolean expected = Boolean.valueOf(strings.get("display"));
 		System.out.println("actual displayed." + actual + '\n' + "expected displayed --" + expected);
 		Assert.assertEquals(actual, expected);
 
