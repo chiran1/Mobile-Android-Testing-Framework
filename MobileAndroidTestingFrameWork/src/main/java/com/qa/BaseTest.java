@@ -52,7 +52,7 @@ public class BaseTest {
 			desiredCapabilities.setCapability("appPackage", props.getProperty("androidAppPackage"));
 			desiredCapabilities.setCapability("appActivity", props.getProperty("androidAppActivity"));
 			URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
-			desiredCapabilities.setCapability("app", appUrl);
+			//desiredCapabilities.setCapability("app", appUrl);
 
 			URL url = new URL(props.getProperty("appiumURL"));
 
