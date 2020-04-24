@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.SignInPageTests" hash-for-method="invalidUserName">invalidUserName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.qa.tests.SignInPageTests" hash-for-method="signOut">signOut</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -133,6 +138,13 @@
                   <a name="invalidUserName">
                   </a> <!-- invalidUserName -->
                   <span class="method-name">invalidUserName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="signOut">
+                  </a> <!-- signOut -->
+                  <span class="method-name">signOut</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -202,20 +214,24 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'invalidUserName')
 data.setCell(0, 2, 'com.qa.tests.SignInPageTests')
-data.setCell(0, 3, 10349);
+data.setCell(0, 3, 8708);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'validUserName')
 data.setCell(1, 2, 'com.qa.tests.SignInPageTests')
-data.setCell(1, 3, 8018);
+data.setCell(1, 3, 7910);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'signOut')
+data.setCell(2, 2, 'com.qa.tests.SignInPageTests')
+data.setCell(2, 3, 1054);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 18 seconds</span>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -248,39 +264,51 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
-                <span class="method-start">11138 ms</span>
+                <span class="method-start">10753 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.qa.tests.SignInPageTests.invalidUserName())</span>
-                <span class="method-start">11151 ms</span>
+                <span class="method-start">10763 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">invalidUserName</span>
-                <span class="method-start">11294 ms</span>
+                <span class="method-start">10909 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">21647 ms</span>
+                <span class="method-start">19620 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void com.qa.tests.SignInPageTests.validUserName())</span>
-                <span class="method-start">21648 ms</span>
+                <span class="method-start">19623 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">validUserName</span>
-                <span class="method-start">21650 ms</span>
+                <span class="method-start">19625 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod</span>
-                <span class="method-start">29669 ms</span>
+                <span class="method-start">27536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void com.qa.tests.SignInPageTests.signOut())</span>
+                <span class="method-start">27537 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">signOut</span>
+                <span class="method-start">27538 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod</span>
+                <span class="method-start">28593 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">29669 ms</span>
+                <span class="method-start">28594 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
                 <span class="method-name">afterTest</span>
-                <span class="method-start">29671 ms</span>
+                <span class="method-start">28594 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

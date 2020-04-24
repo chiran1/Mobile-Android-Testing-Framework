@@ -26,7 +26,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterTest;
 
 public class BaseTest {
-	static AppiumDriver driver;
+	protected static AppiumDriver driver;
 	static Properties props;
 	InputStream inputStream;
 	InputStream stringsis;
@@ -60,7 +60,8 @@ public class BaseTest {
 			desiredCapabilities.setCapability("automationName", props.getProperty("androidAutomationName"));
 			desiredCapabilities.setCapability("appPackage", props.getProperty("androidAppPackage"));
 			desiredCapabilities.setCapability("appActivity", props.getProperty("androidAppActivity"));
-			URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));
+			String appUrl = getClass().getResource(props.getProperty("androidAppLocation")).getFile();
+			//URL appUrl = getClass().getClassLoader().getResource(props.getProperty("androidAppLocation"));//deleted
 			//desiredCapabilities.setCapability("app", appUrl);
 
 			URL url = new URL(props.getProperty("appiumURL"));

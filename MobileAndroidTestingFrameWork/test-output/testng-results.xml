@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="30327" started-at="2020-04-23T16:09:17 EDT" finished-at="2020-04-23T16:09:48 EDT">
+  <suite name="Suite" duration-ms="29152" started-at="2020-04-24T12:53:14 EDT" finished-at="2020-04-24T12:53:43 EDT">
     <groups>
     </groups>
-    <test name="Test" duration-ms="30327" started-at="2020-04-23T16:09:17 EDT" finished-at="2020-04-23T16:09:48 EDT">
+    <test name="Test" duration-ms="29152" started-at="2020-04-24T12:53:14 EDT" finished-at="2020-04-24T12:53:43 EDT">
       <class name="com.qa.tests.SignInPageTests">
-        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="beforeTest" is-config="true" duration-ms="11129" started-at="2020-04-23T16:09:17 EDT" finished-at="2020-04-23T16:09:28 EDT">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="beforeTest" is-config="true" duration-ms="10740" started-at="2020-04-24T12:53:14 EDT" finished-at="2020-04-24T12:53:25 EDT">
           <params>
             <param index="0">
               <value>
@@ -28,11 +28,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-04-23T16:09:28 EDT" finished-at="2020-04-23T16:09:28 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-04-24T12:53:25 EDT" finished-at="2020-04-24T12:53:25 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="beforeMethod" is-config="true" duration-ms="142" started-at="2020-04-23T16:09:28 EDT" finished-at="2020-04-23T16:09:29 EDT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="beforeMethod" is-config="true" duration-ms="145" started-at="2020-04-24T12:53:25 EDT" finished-at="2020-04-24T12:53:25 EDT">
           <params>
             <param index="0">
               <value>
@@ -43,15 +43,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="invalidUserName()[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="invalidUserName" duration-ms="10349" started-at="2020-04-23T16:09:29 EDT" finished-at="2020-04-23T16:09:39 EDT">
+        <test-method status="PASS" signature="invalidUserName()[pri:1, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="invalidUserName" duration-ms="8708" started-at="2020-04-24T12:53:25 EDT" finished-at="2020-04-24T12:53:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- invalidUserName -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-23T16:09:39 EDT" finished-at="2020-04-23T16:09:39 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-04-24T12:53:34 EDT" finished-at="2020-04-24T12:53:34 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-04-23T16:09:39 EDT" finished-at="2020-04-23T16:09:39 EDT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-04-24T12:53:34 EDT" finished-at="2020-04-24T12:53:34 EDT">
           <params>
             <param index="0">
               <value>
@@ -62,19 +62,38 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="validUserName()[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="validUserName" duration-ms="8018" started-at="2020-04-23T16:09:39 EDT" finished-at="2020-04-23T16:09:47 EDT">
+        <test-method status="PASS" signature="validUserName()[pri:2, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="validUserName" duration-ms="7910" started-at="2020-04-24T12:53:34 EDT" finished-at="2020-04-24T12:53:41 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validUserName -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-23T16:09:47 EDT" finished-at="2020-04-23T16:09:47 EDT">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-24T12:53:41 EDT" finished-at="2020-04-24T12:53:41 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-04-23T16:09:47 EDT" finished-at="2020-04-23T16:09:47 EDT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-04-24T12:53:41 EDT" finished-at="2020-04-24T12:53:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.qa.tests.SignInPageTests.signOut()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="signOut()[pri:3, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="signOut" duration-ms="1054" started-at="2020-04-24T12:53:41 EDT" finished-at="2020-04-24T12:53:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signOut -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-04-24T12:53:43 EDT" finished-at="2020-04-24T12:53:43 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-24T12:53:43 EDT" finished-at="2020-04-24T12:53:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.SignInPageTests@7130d850]" name="afterTest" is-config="true" duration-ms="651" started-at="2020-04-23T16:09:47 EDT" finished-at="2020-04-23T16:09:48 EDT">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.qa.tests.SignInPageTests@fc5fc4c3]" name="afterTest" is-config="true" duration-ms="553" started-at="2020-04-24T12:53:43 EDT" finished-at="2020-04-24T12:53:43 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

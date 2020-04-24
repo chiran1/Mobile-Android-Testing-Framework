@@ -32,6 +32,10 @@ public class SignInPage extends BaseTest {
 
 	@AndroidFindBy(id = "com.spirit.customerapp:id/confirm_button")
 	private static MobileElement TouchIdAllow;
+	
+	@AndroidFindBy(id = "com.spirit.customerapp:id/header")
+	private static MobileElement header;
+	
 
 	// MobileElement Notifications = (MobileElement)
 	// driver.findElement(By.id("com.spirit.customerapp:id/confirm_button"));
@@ -92,6 +96,11 @@ public class SignInPage extends BaseTest {
 	public static String getErrText() {
 		return getAttribute(errTxt, "text");
 	}
+	
+	public static String getHeaderText() {
+		return getAttribute(header, "text");
+	}
+	
 
 	public static boolean getBol() {
 		return getAttributeBoolean(CustomerPage.userImage);
@@ -105,6 +114,11 @@ public class SignInPage extends BaseTest {
 	public static SignInPage clickTouchId() {
 		click(TouchIdAllow);
 		return new SignInPage();
+	}
+	
+	public static CustomerPage clickImage() {
+		click(CustomerPage.userImage);
+		return new CustomerPage();
 	}
 
 }

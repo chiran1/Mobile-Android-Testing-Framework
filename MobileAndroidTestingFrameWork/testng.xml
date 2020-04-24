@@ -12,10 +12,13 @@
 
 		<classes>
 			<class name="com.qa.tests.SignInPageTests">
-				<!-- <methods>
-					<include name="invalidUserName"></include>
+				<methods>
+					<!-- <include name="invalidUserName"></include>
+					<include name="valididUserName"></include>
 					
-				</methods> -->
+					<include name="signOut"></include> -->
+					
+				</methods>
 			</class>
 		</classes>
 	</test> <!-- Test -->

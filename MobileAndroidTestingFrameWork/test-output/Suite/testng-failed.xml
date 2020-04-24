@@ -16,8 +16,8 @@
           <include name="beforeMethod"/>
           <include name="beforeTest"/>
           <include name="afterMethod"/>
-          <include name="invalidUserName"/>
           <include name="afterClass"/>
+          <include name="signOut"/>
         </methods>
       </class> <!-- com.qa.tests.SignInPageTests -->
     </classes>
